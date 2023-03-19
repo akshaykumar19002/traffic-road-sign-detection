@@ -3,12 +3,12 @@
 This project is focused on detecting traffic road signs using various CNN architectures such as LeNet, ResNet, VGG, and Inception V3. The project utilizes a primary dataset for training and testing taken from the Udemy course on Autonomous Cars - Deep Learning and Computer Vision in Python. Additionally, several other datasets were used only for testing purposes.
 
 ## Dataset used
-Primary dataset (training and testing): Udemy course - Autonomous Cars: Deep Learning and Computer Vision in Python
-https://www.udemy.com/course/autonomous-cars-deep-learning-and-computer-vision-in-python/
-Datasets used only for testing:
-https://www.kaggle.com/datasets/safabouguezzi/german-traffic-sign-detection-benchmark-gtsdb
-https://www.kaggle.com/datasets/bhavinmoriya/german-traffic-sign-recognition-benchmark
-https://www.kaggle.com/datasets/ibrahimkaratas/gtsrb-german-traffic-sign-recognition-benchmark
+1. Primary dataset (training and testing): Udemy course - Autonomous Cars: Deep Learning and Computer Vision in Python
+* https://www.udemy.com/course/autonomous-cars-deep-learning-and-computer-vision-in-python/
+2. Datasets used only for testing:
+* https://www.kaggle.com/datasets/safabouguezzi/german-traffic-sign-detection-benchmark-gtsdb
+* https://www.kaggle.com/datasets/bhavinmoriya/german-traffic-sign-recognition-benchmark
+* https://www.kaggle.com/datasets/ibrahimkaratas/gtsrb-german-traffic-sign-recognition-benchmark
 
 ## Files
 * detecting-traffic-signs-updated.ipynb: Jupyter Notebook containing implementation and saving of all models
