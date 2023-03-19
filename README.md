@@ -1,36 +1,30 @@
-# Traffic Road Sign Detection
+# Traffic Road Sign Detection using CNN architectures
 
-Datasets used for training:
+This project is focused on detecting traffic road signs using various CNN architectures such as LeNet, ResNet, VGG, and Inception V3. The project utilizes a primary dataset for training and testing taken from the Udemy course on Autonomous Cars - Deep Learning and Computer Vision in Python. Additionally, several other datasets were used only for testing purposes.
 
-1. Primary dataset was taken for training and testing from Udemy course:
-    https://www.udemy.com/course/autonomous-cars-deep-learning-and-computer-vision-in-python/
+## Dataset used
+Primary dataset (training and testing): Udemy course - Autonomous Cars: Deep Learning and Computer Vision in Python
+https://www.udemy.com/course/autonomous-cars-deep-learning-and-computer-vision-in-python/
+Datasets used only for testing:
+https://www.kaggle.com/datasets/safabouguezzi/german-traffic-sign-detection-benchmark-gtsdb
+https://www.kaggle.com/datasets/bhavinmoriya/german-traffic-sign-recognition-benchmark
+https://www.kaggle.com/datasets/ibrahimkaratas/gtsrb-german-traffic-sign-recognition-benchmark
 
-2. All other datasets were used only for testing.
+## Files
+* detecting-traffic-signs-updated.ipynb: Jupyter Notebook containing implementation and saving of all models
+* deploy-streamlit.py: Python script using Streamlit to deploy the saved models
 
-    https://www.kaggle.com/datasets/safabouguezzi/german-traffic-sign-detection-benchmark-gtsdb
+## CNN Architectures used
+* LeNet
+* ResNet
+* VGG
+* Inception V3
 
-    https://www.kaggle.com/datasets/bhavinmoriya/german-traffic-sign-recognition-benchmark
+## Usage
+1. Clone the repository.
+2. Install the required libraries listed in requirements.txt.
+3. Run detecting-traffic-signs-updated.ipynb to train the models and save them.
+4. Run deploy-streamlit.py to deploy the models using Streamlit.
 
-    https://www.kaggle.com/datasets/ibrahimkaratas/gtsrb-german-traffic-sign-recognition-benchmark
-
-Below are the different CNN architectures used for prediction.
-
-1. Alexnet with below architecture
-
-<img src="alexnet.jpg">
-
-2. Resnet with below architecture
-
-<img src="resnet.jpg">
-
-3. Modified Alex net with below architecture
-
-<img src="m-alex-net.jpg">
-
-4. Architecture 2
-
-<img src="arch-2.jpg">
-
-5. Architecture 3
-
-<img src="arch-3.jpg">
+## Conclusion
+The project successfully demonstrates the effectiveness of various CNN architectures for detecting traffic road signs. Additionally, using Streamlit to deploy the models allows for easy usage and accessibility.
